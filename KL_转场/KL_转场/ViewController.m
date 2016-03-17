@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  转场效果一
+//  KL_转场
 //
 //  Created by bcmac3 on 16/3/17.
 //  Copyright © 2016年 KellenYangs. All rights reserved.
@@ -16,12 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)popClick:(UIButton *)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
+
 
 @end

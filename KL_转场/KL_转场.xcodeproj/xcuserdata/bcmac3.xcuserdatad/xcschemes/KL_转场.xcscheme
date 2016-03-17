@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B2022391C9A478900DE77DF"
-               BuildableName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.app"
-               BlueprintName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;"
-               ReferencedContainer = "container:&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.xcodeproj">
+               BlueprintIdentifier = "6B5258AB1C9A665100B6E3B2"
+               BuildableName = "KL_&#x8f6c;&#x573a;.app"
+               BlueprintName = "KL_&#x8f6c;&#x573a;"
+               ReferencedContainer = "container:KL_&#x8f6c;&#x573a;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B2022391C9A478900DE77DF"
-            BuildableName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.app"
-            BlueprintName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;"
-            ReferencedContainer = "container:&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.xcodeproj">
+            BlueprintIdentifier = "6B5258AB1C9A665100B6E3B2"
+            BuildableName = "KL_&#x8f6c;&#x573a;.app"
+            BlueprintName = "KL_&#x8f6c;&#x573a;"
+            ReferencedContainer = "container:KL_&#x8f6c;&#x573a;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B2022391C9A478900DE77DF"
-            BuildableName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.app"
-            BlueprintName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;"
-            ReferencedContainer = "container:&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.xcodeproj">
+            BlueprintIdentifier = "6B5258AB1C9A665100B6E3B2"
+            BuildableName = "KL_&#x8f6c;&#x573a;.app"
+            BlueprintName = "KL_&#x8f6c;&#x573a;"
+            ReferencedContainer = "container:KL_&#x8f6c;&#x573a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B2022391C9A478900DE77DF"
-            BuildableName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.app"
-            BlueprintName = "&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;"
-            ReferencedContainer = "container:&#x8f6c;&#x573a;&#x6548;&#x679c;&#x4e00;.xcodeproj">
+            BlueprintIdentifier = "6B5258AB1C9A665100B6E3B2"
+            BuildableName = "KL_&#x8f6c;&#x573a;.app"
+            BlueprintName = "KL_&#x8f6c;&#x573a;"
+            ReferencedContainer = "container:KL_&#x8f6c;&#x573a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

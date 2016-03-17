@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>转场效果一.xcscheme</key>
+		<key>KL_转场.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6B2022391C9A478900DE77DF</key>
+		<key>6B5258AB1C9A665100B6E3B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
