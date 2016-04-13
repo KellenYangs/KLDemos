@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B31D1551CB4E09400AB2E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D1541CB4E09400AB2E23 /* AppDelegate.swift */; };
+		6B31D1571CB4E09400AB2E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D1561CB4E09400AB2E23 /* ViewController.swift */; };
+		6B31D15A1CB4E09400AB2E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D1581CB4E09400AB2E23 /* Main.storyboard */; };
+		6B31D15C1CB4E09400AB2E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D15B1CB4E09400AB2E23 /* Assets.xcassets */; };
+		6B31D15F1CB4E09400AB2E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D15D1CB4E09400AB2E23 /* LaunchScreen.storyboard */; };
+		6B31D1681CB4E17800AB2E23 /* KLEmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D1671CB4E17800AB2E23 /* KLEmoticonViewController.swift */; };
+		6B31D16A1CB4EB0300AB2E23 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D1691CB4EB0300AB2E23 /* Emoticons.bundle */; };
+		6B31D16C1CB4EF3400AB2E23 /* KLEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D16B1CB4EF3400AB2E23 /* KLEmoticonPackage.swift */; };
+		6B31D1701CB4F84400AB2E23 /* compose_emotion_delete_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D16E1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@2x.png */; };
+		6B31D1711CB4F84400AB2E23 /* compose_emotion_delete_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D16F1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@3x.png */; };
+		6B31D1741CB4F84A00AB2E23 /* compose_emotion_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D1721CB4F84A00AB2E23 /* compose_emotion_delete@2x.png */; };
+		6B31D1751CB4F84A00AB2E23 /* compose_emotion_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B31D1731CB4F84A00AB2E23 /* compose_emotion_delete@3x.png */; };
+		6B31D1771CB510C700AB2E23 /* KLEmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D1761CB510C700AB2E23 /* KLEmoticonAttachment.swift */; };
+		6B31D1791CB5110400AB2E23 /* UITextView+kl_Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D1781CB5110400AB2E23 /* UITextView+kl_Emoticon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B31D1511CB4E09400AB2E23 /* KLEmojiViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLEmojiViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31D1541CB4E09400AB2E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B31D1561CB4E09400AB2E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B31D1591CB4E09400AB2E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B31D15B1CB4E09400AB2E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B31D15E1CB4E09400AB2E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B31D1601CB4E09400AB2E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B31D1671CB4E17800AB2E23 /* KLEmoticonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLEmoticonViewController.swift; sourceTree = "<group>"; };
+		6B31D1691CB4EB0300AB2E23 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		6B31D16B1CB4EF3400AB2E23 /* KLEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLEmoticonPackage.swift; sourceTree = "<group>"; };
+		6B31D16E1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@2x.png"; sourceTree = "<group>"; };
+		6B31D16F1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete_highlighted@3x.png"; sourceTree = "<group>"; };
+		6B31D1721CB4F84A00AB2E23 /* compose_emotion_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@2x.png"; sourceTree = "<group>"; };
+		6B31D1731CB4F84A00AB2E23 /* compose_emotion_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_emotion_delete@3x.png"; sourceTree = "<group>"; };
+		6B31D1761CB510C700AB2E23 /* KLEmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLEmoticonAttachment.swift; sourceTree = "<group>"; };
+		6B31D1781CB5110400AB2E23 /* UITextView+kl_Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+kl_Emoticon.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B31D14E1CB4E09400AB2E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B31D1481CB4E09400AB2E23 = {
+			isa = PBXGroup;
+			children = (
+				6B31D1531CB4E09400AB2E23 /* KLEmojiViewExample */,
+				6B31D1521CB4E09400AB2E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B31D1521CB4E09400AB2E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B31D1511CB4E09400AB2E23 /* KLEmojiViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B31D1531CB4E09400AB2E23 /* KLEmojiViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				6B31D1661CB4E09C00AB2E23 /* KLEmojiKeyBoard */,
+				6B31D1541CB4E09400AB2E23 /* AppDelegate.swift */,
+				6B31D1561CB4E09400AB2E23 /* ViewController.swift */,
+				6B31D1581CB4E09400AB2E23 /* Main.storyboard */,
+				6B31D15B1CB4E09400AB2E23 /* Assets.xcassets */,
+				6B31D15D1CB4E09400AB2E23 /* LaunchScreen.storyboard */,
+				6B31D1601CB4E09400AB2E23 /* Info.plist */,
+			);
+			path = KLEmojiViewExample;
+			sourceTree = "<group>";
+		};
+		6B31D1661CB4E09C00AB2E23 /* KLEmojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6B31D16D1CB4F82200AB2E23 /* compose_emotion_delete */,
+				6B31D1691CB4EB0300AB2E23 /* Emoticons.bundle */,
+				6B31D1671CB4E17800AB2E23 /* KLEmoticonViewController.swift */,
+				6B31D16B1CB4EF3400AB2E23 /* KLEmoticonPackage.swift */,
+				6B31D1761CB510C700AB2E23 /* KLEmoticonAttachment.swift */,
+				6B31D1781CB5110400AB2E23 /* UITextView+kl_Emoticon.swift */,
+			);
+			path = KLEmojiKeyBoard;
+			sourceTree = "<group>";
+		};
+		6B31D16D1CB4F82200AB2E23 /* compose_emotion_delete */ = {
+			isa = PBXGroup;
+			children = (
+				6B31D1721CB4F84A00AB2E23 /* compose_emotion_delete@2x.png */,
+				6B31D1731CB4F84A00AB2E23 /* compose_emotion_delete@3x.png */,
+				6B31D16E1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@2x.png */,
+				6B31D16F1CB4F84400AB2E23 /* compose_emotion_delete_highlighted@3x.png */,
+			);
+			path = compose_emotion_delete;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B31D1501CB4E09400AB2E23 /* KLEmojiViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B31D1631CB4E09400AB2E23 /* Build configuration list for PBXNativeTarget "KLEmojiViewExample" */;
+			buildPhases = (
+				6B31D14D1CB4E09400AB2E23 /* Sources */,
+				6B31D14E1CB4E09400AB2E23 /* Frameworks */,
+				6B31D14F1CB4E09400AB2E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLEmojiViewExample;
+			productName = KLEmojiViewExample;
+			productReference = 6B31D1511CB4E09400AB2E23 /* KLEmojiViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B31D1491CB4E09400AB2E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KellenYangs;
+				TargetAttributes = {
+					6B31D1501CB4E09400AB2E23 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B31D14C1CB4E09400AB2E23 /* Build configuration list for PBXProject "KLEmojiViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B31D1481CB4E09400AB2E23;
+			productRefGroup = 6B31D1521CB4E09400AB2E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B31D1501CB4E09400AB2E23 /* KLEmojiViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B31D14F1CB4E09400AB2E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31D15F1CB4E09400AB2E23 /* LaunchScreen.storyboard in Resources */,
+				6B31D1711CB4F84400AB2E23 /* compose_emotion_delete_highlighted@3x.png in Resources */,
+				6B31D16A1CB4EB0300AB2E23 /* Emoticons.bundle in Resources */,
+				6B31D15C1CB4E09400AB2E23 /* Assets.xcassets in Resources */,
+				6B31D1701CB4F84400AB2E23 /* compose_emotion_delete_highlighted@2x.png in Resources */,
+				6B31D1751CB4F84A00AB2E23 /* compose_emotion_delete@3x.png in Resources */,
+				6B31D1741CB4F84A00AB2E23 /* compose_emotion_delete@2x.png in Resources */,
+				6B31D15A1CB4E09400AB2E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B31D14D1CB4E09400AB2E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31D1791CB5110400AB2E23 /* UITextView+kl_Emoticon.swift in Sources */,
+				6B31D1571CB4E09400AB2E23 /* ViewController.swift in Sources */,
+				6B31D1551CB4E09400AB2E23 /* AppDelegate.swift in Sources */,
+				6B31D1771CB510C700AB2E23 /* KLEmoticonAttachment.swift in Sources */,
+				6B31D1681CB4E17800AB2E23 /* KLEmoticonViewController.swift in Sources */,
+				6B31D16C1CB4EF3400AB2E23 /* KLEmoticonPackage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B31D1581CB4E09400AB2E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B31D1591CB4E09400AB2E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B31D15D1CB4E09400AB2E23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B31D15E1CB4E09400AB2E23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B31D1611CB4E09400AB2E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B31D1621CB4E09400AB2E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B31D1641CB4E09400AB2E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLEmojiViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.KLEmojiViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B31D1651CB4E09400AB2E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLEmojiViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.KLEmojiViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B31D14C1CB4E09400AB2E23 /* Build configuration list for PBXProject "KLEmojiViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31D1611CB4E09400AB2E23 /* Debug */,
+				6B31D1621CB4E09400AB2E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B31D1631CB4E09400AB2E23 /* Build configuration list for PBXNativeTarget "KLEmojiViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31D1641CB4E09400AB2E23 /* Debug */,
+				6B31D1651CB4E09400AB2E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B31D1491CB4E09400AB2E23 /* Project object */;
+}
