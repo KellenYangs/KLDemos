@@ -1,0 +1,35 @@
+<html>
+    <!-- 网页的描述信息 -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World</title>
+        <script>
+            function klevent()
+            {
+<!--       OC调用JS         -->
+<!--                alert("调用JS方法成功哦~");-->
+<!-- 改变当前网页的链接 -->
+<!--               location.href = 'http://kellenyangs.github.io';-->
+
+
+<!--      JS调用OC -->
+<!--            location.href = 'kl://';-->
+<!--            location.href = 'kl://js2?one=kellen';-->
+           location.href = 'kl://js3_two_?one=kellen&two=Yangs';
+
+
+            }
+        </script>
+    </head>
+    
+    <!-- 网页的具体内容 -->
+    <body>
+        JS调用OC哦~~:
+        <br>
+        <hr>
+        <button style="background: blue; width:100px; height:30px;" onclick="klevent();">JS调用OC</button>
+        <br>
+        <hr>
+        <a href="http://www.baidu.com">百度</a>
+    </body>
+</html>
