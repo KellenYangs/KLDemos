@@ -2,7 +2,7 @@
 //  KLTextField.m
 //  KL-Use
 //
-//  Created by jensen on 16/3/12.
+//  Created by KellenYangs on 16/3/12.
 //  Copyright © 2016年 KellenYangs. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ static NSString * const KLPlacerholderColorKeyPath = @"_placeholderLabel.textCol
 // RunTime Anthor Use
 // 替换方法
 //Method method1 = class_getInstanceMethod(self, NSSelectorFromString(@"dealloc"));
-//Method method2 = class_getInstanceMethod(self, @selector(xmg_dealloc));
+//Method method2 = class_getInstanceMethod(self, @selector(kl_dealloc));
 //method_exchangeImplementations(method1, method2);
 
 + (void)initialize

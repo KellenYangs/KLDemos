@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+kl_ImageNamed.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImage *img = [[UIImage alloc] init];
+    img.test = @"123";
+    NSLog(@"%@", img.test);
+    
 }
 
 - (void)didReceiveMemoryWarning {
