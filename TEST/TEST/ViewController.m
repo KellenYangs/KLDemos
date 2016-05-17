@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KL_Single.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    KL_Single *s = [KL_Single sharedSingle];
+//    s.name = @"xixi";
+//    s.age = @"16";
+    
+    NSLog(@"%@--%@", s.name, s.age);
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSLog(@"%@  --- %@", paths, [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches/KLNetworkingCaches"]);
+    
     
     NSURL *URL = [NSURL URLWithString:@"http://103.242.168.151:81/TJH/product/proList"];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];

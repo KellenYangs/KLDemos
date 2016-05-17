@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6174BA1CEAE84C00FBBA59 /* KLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6174B91CEAE84C00FBBA59 /* KLNetworking.m */; };
 		6BE5765C1CAE4ADA00B70B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5765B1CAE4ADA00B70B55 /* main.m */; };
 		6BE5765F1CAE4ADA00B70B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5765E1CAE4ADA00B70B55 /* AppDelegate.m */; };
 		6BE576621CAE4ADA00B70B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE576611CAE4ADA00B70B55 /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B6174B81CEAE84C00FBBA59 /* KLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLNetworking.h; sourceTree = "<group>"; };
+		6B6174B91CEAE84C00FBBA59 /* KLNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLNetworking.m; sourceTree = "<group>"; };
 		6BE576571CAE4ADA00B70B55 /* Test-KL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-KL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE5765B1CAE4ADA00B70B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BE5765D1CAE4ADA00B70B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6B6174B71CEAE84C00FBBA59 /* KLNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6B6174B81CEAE84C00FBBA59 /* KLNetworking.h */,
+				6B6174B91CEAE84C00FBBA59 /* KLNetworking.m */,
+			);
+			path = KLNetworking;
+			sourceTree = "<group>";
+		};
 		6BE5764E1CAE4ADA00B70B55 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +91,7 @@
 		6BE576591CAE4ADA00B70B55 /* Test-KL */ = {
 			isa = PBXGroup;
 			children = (
+				6B6174B71CEAE84C00FBBA59 /* KLNetworking */,
 				6BE5765D1CAE4ADA00B70B55 /* AppDelegate.h */,
 				6BE5765E1CAE4ADA00B70B55 /* AppDelegate.m */,
 				6BE576601CAE4ADA00B70B55 /* ViewController.h */,
@@ -234,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6174BA1CEAE84C00FBBA59 /* KLNetworking.m in Sources */,
 				6BE576731CAE4C5200B70B55 /* NetworkTools.m in Sources */,
 				6BE576621CAE4ADA00B70B55 /* ViewController.m in Sources */,
 				6BE5765F1CAE4ADA00B70B55 /* AppDelegate.m in Sources */,

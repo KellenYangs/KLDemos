@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B462E671CE573A800A21BA3 /* KL_Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B462E661CE573A800A21BA3 /* KL_Single.m */; };
 		6B76A0151CDC32C500CB5E0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B76A0141CDC32C500CB5E0E /* main.m */; };
 		6B76A0181CDC32C500CB5E0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B76A0171CDC32C500CB5E0E /* AppDelegate.m */; };
 		6B76A01B1CDC32C500CB5E0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B76A01A1CDC32C500CB5E0E /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B462E651CE573A800A21BA3 /* KL_Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KL_Single.h; sourceTree = "<group>"; };
+		6B462E661CE573A800A21BA3 /* KL_Single.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KL_Single.m; sourceTree = "<group>"; };
 		6B76A0101CDC32C500CB5E0E /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B76A0141CDC32C500CB5E0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B76A0161CDC32C500CB5E0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		6B76A0121CDC32C500CB5E0E /* TEST */ = {
 			isa = PBXGroup;
 			children = (
+				6B462E651CE573A800A21BA3 /* KL_Single.h */,
+				6B462E661CE573A800A21BA3 /* KL_Single.m */,
 				6B76A0161CDC32C500CB5E0E /* AppDelegate.h */,
 				6B76A0171CDC32C500CB5E0E /* AppDelegate.m */,
 				6B76A0191CDC32C500CB5E0E /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				6B76A01B1CDC32C500CB5E0E /* ViewController.m in Sources */,
 				6B76A0181CDC32C500CB5E0E /* AppDelegate.m in Sources */,
+				6B462E671CE573A800A21BA3 /* KL_Single.m in Sources */,
 				6B76A0151CDC32C500CB5E0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				6B76A03F1CDC32C500CB5E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B76A0401CDC32C500CB5E0E /* Build configuration list for PBXNativeTarget "TESTTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				6B76A0421CDC32C500CB5E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B76A0431CDC32C500CB5E0E /* Build configuration list for PBXNativeTarget "TESTUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				6B76A0451CDC32C500CB5E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

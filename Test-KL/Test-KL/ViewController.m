@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "NetworkTools.h"
+#import "KLNetworking.h"
 
 @interface ViewController ()
 
@@ -15,12 +16,44 @@
 
 @implementation ViewController
 
+#define prolist @"product/proList"
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [KLNetworking updateBaseUrl:@"http://192.168.0.222/TJH/"];
+    [KLNetworking enableInterfaceDebug:YES];
+    [KLNetworking cacheGetRequest:NO shoulCachePost:NO];
     
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"sort"] = @"0";
+    params[@"schedule"] = @"1";
+    params[@"orderBy"]  = @"1";
+    params[@"search"]   = @"";
+    params[@"currentPage"] = @"1";
+    params[@"pageSize"] = @"10";
     
+    [KLNetworking postWithUrl:prolist refreshCache:NO params:params success:^(id response) {
+        NSLog(@"加载成功");
+    } fail:^(NSError *error) {
+        NSLog(@"error %@", error);
+    }];
+    
+    [KLNetworking cancelRequestWithURL:prolist];
+    
+    [KLNetworking postWithUrl:prolist refreshCache:NO params:params success:^(id response) {
+        NSLog(@"加载成功");
+    } fail:^(NSError *error) {
+        NSLog(@"error %@", error);
+    }];
+    [KLNetworking cancelAllRequest];
+    
+    [KLNetworking postWithUrl:prolist refreshCache:NO params:params success:^(id response) {
+        NSLog(@"加载成功");
+    } fail:^(NSError *error) {
+        NSLog(@"error %@", error);
+    }];
     
 }
 
@@ -34,7 +67,6 @@
      [[[NetworkTools sharedNetworkTools] tasks] makeObjectsPerformSelector:@selector(cancel)];
 }
 
-#define prolist @"product/proList"
 
 - (void)post {
     // 参数
