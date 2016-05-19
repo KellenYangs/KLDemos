@@ -1,0 +1,6 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/SDWebImage" "$CONFIGURATION_BUILD_DIR/YYCache" "$CONFIGURATION_BUILD_DIR/YYImage" "$CONFIGURATION_BUILD_DIR/YYWebImage"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/YYCache/YYCache.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/YYImage/YYImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/YYWebImage/YYWebImage.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "SDWebImage" -framework "YYCache" -framework "YYImage" -framework "YYWebImage"
+PODS_ROOT = ${SRCROOT}/Pods
