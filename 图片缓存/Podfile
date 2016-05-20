@@ -3,5 +3,8 @@ use_frameworks!
 
 target '图片缓存' do
     pod 'YYWebImage'
-    pod 'SDWebImage'
+    #pod 'SDWebImage'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    
 end

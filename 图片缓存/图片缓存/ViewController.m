@@ -24,7 +24,6 @@
 //    imgv.yy_imageURL = [NSURL URLWithString:@"http://7xsuaf.com1.z0.glb.clouddn.com/2015-10-25/数组1.jpeg"];
     [imgv yy_setImageWithURL:[NSURL URLWithString:@"http://github.com/logo.png"] options:YYWebImageOptionProgressive];
     [self.view addSubview:imgv];
-    
 }
 
 - (void)didReceiveMemoryWarning {

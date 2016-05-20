@@ -4,12 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-图片缓存.xcscheme</key>
+		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-图片缓存.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08ED1E7466D130A896341557E2449412</key>
+		<key>188139A37CC7075F16160C54D5727F79</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50067147209A71268ABAD9FDED6721CC</key>
+		<key>2F55C6E3F8090C4A713E4976E4645A74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80D7200061E2BA2B99D3360455C811A5</key>
+		<key>570BF7E03CA4A7BE76BACFC781672DC1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>859E979276BACCEF45010234EF4857A0</key>
+		<key>6847254D016329D4A531D34ED2B6DF81</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AE71D83DA648AC8646F42569CCF00D9C</key>
+		<key>7C0126D717EB28DC6DB2EEA2E20B5172</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9191446D19905E614C0CC30C59FA1C17</key>
 		<dict>
 			<key>primary</key>
 			<true/>
