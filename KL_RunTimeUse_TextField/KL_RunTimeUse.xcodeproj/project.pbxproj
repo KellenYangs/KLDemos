@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B140AB61CF555BD004E1E94 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B140AB51CF555BD004E1E94 /* Person.m */; };
+		6B140AB91CF555F4004E1E94 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B140AB81CF555F4004E1E94 /* Man.m */; };
 		6B2A81921CA11DD5002BF64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A81911CA11DD5002BF64E /* main.m */; };
 		6B2A81951CA11DD5002BF64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A81941CA11DD5002BF64E /* AppDelegate.m */; };
 		6B2A81981CA11DD5002BF64E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A81971CA11DD5002BF64E /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B140AB41CF555BD004E1E94 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6B140AB51CF555BD004E1E94 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6B140AB71CF555F4004E1E94 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		6B140AB81CF555F4004E1E94 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		6B2A818D1CA11DD5002BF64E /* KL_RunTimeUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KL_RunTimeUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2A81911CA11DD5002BF64E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B2A81931CA11DD5002BF64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +82,10 @@
 				6B2A819E1CA11DD5002BF64E /* LaunchScreen.storyboard */,
 				6B2A81A11CA11DD5002BF64E /* Info.plist */,
 				6B2A81901CA11DD5002BF64E /* Supporting Files */,
+				6B140AB41CF555BD004E1E94 /* Person.h */,
+				6B140AB51CF555BD004E1E94 /* Person.m */,
+				6B140AB71CF555F4004E1E94 /* Man.h */,
+				6B140AB81CF555F4004E1E94 /* Man.m */,
 			);
 			path = KL_RunTimeUse;
 			sourceTree = "<group>";
@@ -167,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B140AB61CF555BD004E1E94 /* Person.m in Sources */,
 				6B2A81AD1CA11FD9002BF64E /* KLTextField.m in Sources */,
 				6B2A81981CA11DD5002BF64E /* ViewController.m in Sources */,
+				6B140AB91CF555F4004E1E94 /* Man.m in Sources */,
 				6BF39F141CE02E9300C83C31 /* UIImage+kl_ImageNamed.m in Sources */,
 				6B2A81951CA11DD5002BF64E /* AppDelegate.m in Sources */,
 				6B2A81921CA11DD5002BF64E /* main.m in Sources */,

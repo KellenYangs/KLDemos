@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480336FD032C0D09C8F9D044 /* libPods-BaiduMaoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D1C71C45C0A560A7670021 /* libPods-BaiduMaoTest.a */; };
+		6B8BF5BC1CFFD4B40069FC43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BF5BB1CFFD4B40069FC43 /* main.m */; };
+		6B8BF5BF1CFFD4B40069FC43 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BF5BE1CFFD4B40069FC43 /* AppDelegate.mm */; };
+		6B8BF5C21CFFD4B40069FC43 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BF5C11CFFD4B40069FC43 /* ViewController.mm */; };
+		6B8BF5C51CFFD4B40069FC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BF5C31CFFD4B40069FC43 /* Main.storyboard */; };
+		6B8BF5C71CFFD4B40069FC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BF5C61CFFD4B40069FC43 /* Assets.xcassets */; };
+		6B8BF5CA1CFFD4B40069FC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BF5C81CFFD4B40069FC43 /* LaunchScreen.storyboard */; };
+		6B8BF5D51CFFD4B50069FC43 /* BaiduMaoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BF5D41CFFD4B50069FC43 /* BaiduMaoTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8BF5D11CFFD4B50069FC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8BF5AF1CFFD4B30069FC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8BF5B61CFFD4B40069FC43;
+			remoteInfo = BaiduMaoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BBC6EDCA6C1D900093AD3F /* Pods-BaiduMaoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMaoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMaoTest/Pods-BaiduMaoTest.release.xcconfig"; sourceTree = "<group>"; };
+		6B8BF5B71CFFD4B40069FC43 /* BaiduMaoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMaoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8BF5BB1CFFD4B40069FC43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8BF5BD1CFFD4B40069FC43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8BF5BE1CFFD4B40069FC43 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		6B8BF5C01CFFD4B40069FC43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B8BF5C11CFFD4B40069FC43 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		6B8BF5C41CFFD4B40069FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B8BF5C61CFFD4B40069FC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8BF5C91CFFD4B40069FC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8BF5CB1CFFD4B40069FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8BF5D01CFFD4B50069FC43 /* BaiduMaoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMaoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8BF5D41CFFD4B50069FC43 /* BaiduMaoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMaoTestTests.m; sourceTree = "<group>"; };
+		6B8BF5D61CFFD4B50069FC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935C74F33DDD939BA332B3B7 /* Pods-BaiduMaoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMaoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMaoTest/Pods-BaiduMaoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D1C71C45C0A560A7670021 /* libPods-BaiduMaoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMaoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8BF5B41CFFD4B40069FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480336FD032C0D09C8F9D044 /* libPods-BaiduMaoTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8BF5CD1CFFD4B50069FC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8BF5AE1CFFD4B30069FC43 = {
+			isa = PBXGroup;
+			children = (
+				6B8BF5B91CFFD4B40069FC43 /* BaiduMaoTest */,
+				6B8BF5D31CFFD4B50069FC43 /* BaiduMaoTestTests */,
+				6B8BF5B81CFFD4B40069FC43 /* Products */,
+				FA0C2BC8AEFDEC474BDE5D54 /* Pods */,
+				CCB4CC6C42DD71D650320B16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8BF5B81CFFD4B40069FC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BF5B71CFFD4B40069FC43 /* BaiduMaoTest.app */,
+				6B8BF5D01CFFD4B50069FC43 /* BaiduMaoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8BF5B91CFFD4B40069FC43 /* BaiduMaoTest */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BF5BD1CFFD4B40069FC43 /* AppDelegate.h */,
+				6B8BF5BE1CFFD4B40069FC43 /* AppDelegate.mm */,
+				6B8BF5C01CFFD4B40069FC43 /* ViewController.h */,
+				6B8BF5C11CFFD4B40069FC43 /* ViewController.mm */,
+				6B8BF5C31CFFD4B40069FC43 /* Main.storyboard */,
+				6B8BF5C61CFFD4B40069FC43 /* Assets.xcassets */,
+				6B8BF5C81CFFD4B40069FC43 /* LaunchScreen.storyboard */,
+				6B8BF5CB1CFFD4B40069FC43 /* Info.plist */,
+				6B8BF5BA1CFFD4B40069FC43 /* Supporting Files */,
+			);
+			path = BaiduMaoTest;
+			sourceTree = "<group>";
+		};
+		6B8BF5BA1CFFD4B40069FC43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BF5BB1CFFD4B40069FC43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8BF5D31CFFD4B50069FC43 /* BaiduMaoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BF5D41CFFD4B50069FC43 /* BaiduMaoTestTests.m */,
+				6B8BF5D61CFFD4B50069FC43 /* Info.plist */,
+			);
+			path = BaiduMaoTestTests;
+			sourceTree = "<group>";
+		};
+		CCB4CC6C42DD71D650320B16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D1C71C45C0A560A7670021 /* libPods-BaiduMaoTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0C2BC8AEFDEC474BDE5D54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				935C74F33DDD939BA332B3B7 /* Pods-BaiduMaoTest.debug.xcconfig */,
+				01BBC6EDCA6C1D900093AD3F /* Pods-BaiduMaoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8BF5B61CFFD4B40069FC43 /* BaiduMaoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8BF5D91CFFD4B50069FC43 /* Build configuration list for PBXNativeTarget "BaiduMaoTest" */;
+			buildPhases = (
+				E7AE76A2A86F48E177FFE909 /* 📦 Check Pods Manifest.lock */,
+				6B8BF5B31CFFD4B40069FC43 /* Sources */,
+				6B8BF5B41CFFD4B40069FC43 /* Frameworks */,
+				6B8BF5B51CFFD4B40069FC43 /* Resources */,
+				01A413B81E5D7762168BBAD9 /* 📦 Embed Pods Frameworks */,
+				705DEDA8B5808ADB2DF57D0C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMaoTest;
+			productName = BaiduMaoTest;
+			productReference = 6B8BF5B71CFFD4B40069FC43 /* BaiduMaoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8BF5CF1CFFD4B50069FC43 /* BaiduMaoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8BF5DC1CFFD4B50069FC43 /* Build configuration list for PBXNativeTarget "BaiduMaoTestTests" */;
+			buildPhases = (
+				6B8BF5CC1CFFD4B50069FC43 /* Sources */,
+				6B8BF5CD1CFFD4B50069FC43 /* Frameworks */,
+				6B8BF5CE1CFFD4B50069FC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8BF5D21CFFD4B50069FC43 /* PBXTargetDependency */,
+			);
+			name = BaiduMaoTestTests;
+			productName = BaiduMaoTestTests;
+			productReference = 6B8BF5D01CFFD4B50069FC43 /* BaiduMaoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8BF5AF1CFFD4B30069FC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KellenYangs;
+				TargetAttributes = {
+					6B8BF5B61CFFD4B40069FC43 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6B8BF5CF1CFFD4B50069FC43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6B8BF5B61CFFD4B40069FC43;
+					};
+				};
+			};
+			buildConfigurationList = 6B8BF5B21CFFD4B30069FC43 /* Build configuration list for PBXProject "BaiduMaoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8BF5AE1CFFD4B30069FC43;
+			productRefGroup = 6B8BF5B81CFFD4B40069FC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8BF5B61CFFD4B40069FC43 /* BaiduMaoTest */,
+				6B8BF5CF1CFFD4B50069FC43 /* BaiduMaoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8BF5B51CFFD4B40069FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8BF5CA1CFFD4B40069FC43 /* LaunchScreen.storyboard in Resources */,
+				6B8BF5C71CFFD4B40069FC43 /* Assets.xcassets in Resources */,
+				6B8BF5C51CFFD4B40069FC43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8BF5CE1CFFD4B50069FC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A413B81E5D7762168BBAD9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMaoTest/Pods-BaiduMaoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		705DEDA8B5808ADB2DF57D0C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMaoTest/Pods-BaiduMaoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AE76A2A86F48E177FFE909 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8BF5B31CFFD4B40069FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8BF5C21CFFD4B40069FC43 /* ViewController.mm in Sources */,
+				6B8BF5BF1CFFD4B40069FC43 /* AppDelegate.mm in Sources */,
+				6B8BF5BC1CFFD4B40069FC43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8BF5CC1CFFD4B50069FC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8BF5D51CFFD4B50069FC43 /* BaiduMaoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8BF5D21CFFD4B50069FC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8BF5B61CFFD4B40069FC43 /* BaiduMaoTest */;
+			targetProxy = 6B8BF5D11CFFD4B50069FC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B8BF5C31CFFD4B40069FC43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8BF5C41CFFD4B40069FC43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8BF5C81CFFD4B40069FC43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8BF5C91CFFD4B40069FC43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8BF5D71CFFD4B50069FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B8BF5D81CFFD4B50069FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8BF5DA1CFFD4B50069FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935C74F33DDD939BA332B3B7 /* Pods-BaiduMaoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiduMaoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.BaiduMaoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B8BF5DB1CFFD4B50069FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BBC6EDCA6C1D900093AD3F /* Pods-BaiduMaoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaiduMaoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.BaiduMaoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B8BF5DD1CFFD4B50069FC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiduMaoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.BaiduMaoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMaoTest.app/BaiduMaoTest";
+			};
+			name = Debug;
+		};
+		6B8BF5DE1CFFD4B50069FC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BaiduMaoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.BaiduMaoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduMaoTest.app/BaiduMaoTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8BF5B21CFFD4B30069FC43 /* Build configuration list for PBXProject "BaiduMaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8BF5D71CFFD4B50069FC43 /* Debug */,
+				6B8BF5D81CFFD4B50069FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8BF5D91CFFD4B50069FC43 /* Build configuration list for PBXNativeTarget "BaiduMaoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8BF5DA1CFFD4B50069FC43 /* Debug */,
+				6B8BF5DB1CFFD4B50069FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8BF5DC1CFFD4B50069FC43 /* Build configuration list for PBXNativeTarget "BaiduMaoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8BF5DD1CFFD4B50069FC43 /* Debug */,
+				6B8BF5DE1CFFD4B50069FC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8BF5AF1CFFD4B30069FC43 /* Project object */;
+}

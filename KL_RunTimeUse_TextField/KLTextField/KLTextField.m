@@ -18,47 +18,47 @@ static NSString * const KLPlacerholderColorKeyPath = @"_placeholderLabel.textCol
 //Method method2 = class_getInstanceMethod(self, @selector(kl_dealloc));
 //method_exchangeImplementations(method1, method2);
 
-+ (void)initialize
-{
-//    [self getIvars];
-}
+//+ (void)initialize
+//{
+////    [self getIvars];
+//}
 
-+ (void)getIvars
-{
-    unsigned int count = 0;
-    
-    // 拷贝出所有的成员变量列表
-    Ivar *ivars = class_copyIvarList([UITextField class], &count);
-    
-    for (int i = 0; i<count; i++) {
-        // 取出成员变量
-        //        Ivar ivar = *(ivars + i);
-        Ivar ivar = ivars[i];
-        
-        // 打印成员变量名字
-        NSLog(@"%s %s", ivar_getName(ivar), ivar_getTypeEncoding(ivar));
-    }
-    
-    // 释放
-    free(ivars);
-}
+//+ (void)getIvars
+//{
+//    unsigned int count = 0;
+//    
+//    // 拷贝出所有的成员变量列表
+//    Ivar *ivars = class_copyIvarList([UITextField class], &count);
+//    
+//    for (int i = 0; i<count; i++) {
+//        // 取出成员变量
+//        //        Ivar ivar = *(ivars + i);
+//        Ivar ivar = ivars[i];
+//        
+//        // 打印成员变量名字
+//        NSLog(@"%s %s", ivar_getName(ivar), ivar_getTypeEncoding(ivar));
+//    }
+//    
+//    // 释放
+//    free(ivars);
+//}
 
-+ (void)getProperties
-{
-    unsigned int count = 0;
-    
-    objc_property_t *properties = class_copyPropertyList([UITextField class], &count);
-    
-    for (int i = 0; i<count; i++) {
-        // 取出属性
-        objc_property_t property = properties[i];
-        
-        // 打印属性名字, 类型
-        NSLog(@"%s   <---->   %s", property_getName(property), property_getAttributes(property));
-    }
-    
-    free(properties);
-}
+//+ (void)getProperties
+//{
+//    unsigned int count = 0;
+//    
+//    objc_property_t *properties = class_copyPropertyList([UITextField class], &count);
+//    
+//    for (int i = 0; i<count; i++) {
+//        // 取出属性
+//        objc_property_t property = properties[i];
+//        
+//        // 打印属性名字, 类型
+//        NSLog(@"%s   <---->   %s", property_getName(property), property_getAttributes(property));
+//    }
+//    
+//    free(properties);
+//}
 
 - (void)awakeFromNib {
     // 设置光标颜色和文字颜色一致

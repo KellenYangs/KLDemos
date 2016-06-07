@@ -19,7 +19,7 @@ typedef enum {
 @interface MJPropertyKey : NSObject
 /** key的名字 */
 @property (copy,   nonatomic) NSString *name;
-/** key的种类，可能是@"10"，可能是@"age" */
+/** key的种类，可能是@"10"，可能是@"age", 数组对应的是下标 */
 @property (assign, nonatomic) MJPropertyKeyType type;
 
 /**
