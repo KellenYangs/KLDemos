@@ -20,7 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically fro
+    
+    CALayer
     
     [KLNetworking updateBaseUrl:@"http://192.168.0.222/TJH/"];
     [KLNetworking enableInterfaceDebug:YES];

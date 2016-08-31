@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  KLLocationStringTest
+
+  Created by bcmac3 on 16/8/31.
+  Copyright © 2016年 KellenYangs. All rights reserved.
+*/
+
+
+"Login" = "Login";
+
+"页面一" = "First";
+// 页面2
+"页面二" = "Second";

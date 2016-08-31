@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  KLLocationStringTest
+
+  Created by bcmac3 on 16/8/31.
+  Copyright © 2016年 KellenYangs. All rights reserved.
+*/
+
+CFBundleDisplayName = "测试";
