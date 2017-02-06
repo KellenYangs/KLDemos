@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AttributeStringExample.xcscheme</key>
+		<key>SystemFonts.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6BA301011CE99A6C0036AAC7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6BA3011A1CE99A6C0036AAC7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6BA301251CE99A6C0036AAC7</key>
+		<key>6B5EA0501E484A4000B5EC85</key>
 		<dict>
 			<key>primary</key>
 			<true/>

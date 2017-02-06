@@ -53,7 +53,7 @@
     
     self.mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height-40)];
     self.mapView.delegate = self;
-    self.mapView.zoomLevel = 20;
+    self.mapView.zoomLevel = 15;
     [self.view addSubview:self.mapView];
     
     self.locationService = [[BMKLocationService alloc] init];
