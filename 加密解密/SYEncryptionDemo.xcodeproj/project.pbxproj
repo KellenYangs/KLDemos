@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5CCE211DFA92CC007349BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE201DFA92CC007349BD /* main.m */; };
+		6B5CCE241DFA92CC007349BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE231DFA92CC007349BD /* AppDelegate.m */; };
+		6B5CCE2A1DFA92CC007349BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CCE281DFA92CC007349BD /* Main.storyboard */; };
+		6B5CCE2C1DFA92CC007349BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CCE2B1DFA92CC007349BD /* Assets.xcassets */; };
+		6B5CCE2F1DFA92CC007349BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CCE2D1DFA92CC007349BD /* LaunchScreen.storyboard */; };
+		6B5CCE3A1DFA932B007349BD /* SYDES3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE391DFA932B007349BD /* SYDES3.m */; };
+		6B5CCE3F1DFA9358007349BD /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE3D1DFA9358007349BD /* GTMBase64.m */; };
+		6B5CCE431DFA948E007349BD /* SYAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE421DFA948E007349BD /* SYAES.m */; };
+		6B5CCE461DFA9533007349BD /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE451DFA9533007349BD /* NSData+CommonCrypto.m */; };
+		6B5CCE491DFA9548007349BD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE481DFA9548007349BD /* NSData+Base64.m */; };
+		6B5CCE4C1DFA954D007349BD /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE4B1DFA954D007349BD /* NSString+Base64.m */; };
+		6B5CCE621DFA967A007349BD /* SYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE611DFA967A007349BD /* SYRootViewController.m */; };
+		6B5CCE651DFA99F5007349BD /* SYDESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE641DFA99F5007349BD /* SYDESViewController.m */; };
+		6B5CCE681DFA99FE007349BD /* SYAESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE671DFA99FE007349BD /* SYAESViewController.m */; };
+		6B5CCE6C1DFA9A15007349BD /* SYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE6A1DFA9A15007349BD /* SYBaseViewController.m */; };
+		6B5CCE6D1DFA9A15007349BD /* SYBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CCE6B1DFA9A15007349BD /* SYBaseViewController.xib */; };
+		6B5CCE711DFAA408007349BD /* SYRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE701DFAA408007349BD /* SYRSA.m */; };
+		6B5CCE741DFAA4C2007349BD /* SYRSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE731DFAA4C2007349BD /* SYRSAViewController.m */; };
+		6B5CCE771DFAA58D007349BD /* NSString+SYEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CCE761DFAA58D007349BD /* NSString+SYEncrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B5CCE1C1DFA92CC007349BD /* SYEncryptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYEncryptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5CCE201DFA92CC007349BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B5CCE221DFA92CC007349BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B5CCE231DFA92CC007349BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B5CCE291DFA92CC007349BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5CCE2B1DFA92CC007349BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5CCE2E1DFA92CC007349BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5CCE301DFA92CC007349BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5CCE381DFA932B007349BD /* SYDES3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDES3.h; sourceTree = "<group>"; };
+		6B5CCE391DFA932B007349BD /* SYDES3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDES3.m; sourceTree = "<group>"; };
+		6B5CCE3C1DFA9358007349BD /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6B5CCE3D1DFA9358007349BD /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6B5CCE3E1DFA9358007349BD /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6B5CCE411DFA948E007349BD /* SYAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAES.h; sourceTree = "<group>"; };
+		6B5CCE421DFA948E007349BD /* SYAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAES.m; sourceTree = "<group>"; };
+		6B5CCE441DFA9533007349BD /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		6B5CCE451DFA9533007349BD /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		6B5CCE471DFA9548007349BD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		6B5CCE481DFA9548007349BD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		6B5CCE4A1DFA954D007349BD /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		6B5CCE4B1DFA954D007349BD /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		6B5CCE601DFA967A007349BD /* SYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRootViewController.h; sourceTree = "<group>"; };
+		6B5CCE611DFA967A007349BD /* SYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRootViewController.m; sourceTree = "<group>"; };
+		6B5CCE631DFA99F5007349BD /* SYDESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDESViewController.h; sourceTree = "<group>"; };
+		6B5CCE641DFA99F5007349BD /* SYDESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDESViewController.m; sourceTree = "<group>"; };
+		6B5CCE661DFA99FE007349BD /* SYAESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAESViewController.h; sourceTree = "<group>"; };
+		6B5CCE671DFA99FE007349BD /* SYAESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAESViewController.m; sourceTree = "<group>"; };
+		6B5CCE691DFA9A15007349BD /* SYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBaseViewController.h; sourceTree = "<group>"; };
+		6B5CCE6A1DFA9A15007349BD /* SYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBaseViewController.m; sourceTree = "<group>"; };
+		6B5CCE6B1DFA9A15007349BD /* SYBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYBaseViewController.xib; sourceTree = "<group>"; };
+		6B5CCE6F1DFAA408007349BD /* SYRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRSA.h; sourceTree = "<group>"; };
+		6B5CCE701DFAA408007349BD /* SYRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRSA.m; sourceTree = "<group>"; };
+		6B5CCE721DFAA4C2007349BD /* SYRSAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYRSAViewController.h; sourceTree = "<group>"; };
+		6B5CCE731DFAA4C2007349BD /* SYRSAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYRSAViewController.m; sourceTree = "<group>"; };
+		6B5CCE751DFAA58D007349BD /* NSString+SYEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYEncrypt.h"; sourceTree = "<group>"; };
+		6B5CCE761DFAA58D007349BD /* NSString+SYEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYEncrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5CCE191DFA92CC007349BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5CCE131DFA92CC007349BD = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE1D1DFA92CC007349BD /* Products */,
+				6B5CCE1E1DFA92CC007349BD /* SYEncryptionDemo */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5CCE1D1DFA92CC007349BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE1C1DFA92CC007349BD /* SYEncryptionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5CCE1E1DFA92CC007349BD /* SYEncryptionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE4D1DFA9622007349BD /* Classes */,
+				6B5CCE361DFA92E0007349BD /* SYEncryption */,
+				6B5CCE1F1DFA92CC007349BD /* Supporting Files */,
+				6B5CCE221DFA92CC007349BD /* AppDelegate.h */,
+				6B5CCE231DFA92CC007349BD /* AppDelegate.m */,
+				6B5CCE2B1DFA92CC007349BD /* Assets.xcassets */,
+				6B5CCE301DFA92CC007349BD /* Info.plist */,
+				6B5CCE2D1DFA92CC007349BD /* LaunchScreen.storyboard */,
+				6B5CCE281DFA92CC007349BD /* Main.storyboard */,
+			);
+			path = SYEncryptionDemo;
+			sourceTree = "<group>";
+		};
+		6B5CCE1F1DFA92CC007349BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE201DFA92CC007349BD /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B5CCE361DFA92E0007349BD /* SYEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE401DFA9472007349BD /* AES */,
+				6B5CCE371DFA92EA007349BD /* DES */,
+				6B5CCE3B1DFA9358007349BD /* GTMBase64 */,
+				6B5CCE6E1DFAA3F9007349BD /* RSA */,
+				6B5CCE751DFAA58D007349BD /* NSString+SYEncrypt.h */,
+				6B5CCE761DFAA58D007349BD /* NSString+SYEncrypt.m */,
+			);
+			name = SYEncryption;
+			path = SYEncryption;
+			sourceTree = "<group>";
+		};
+		6B5CCE371DFA92EA007349BD /* DES */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE381DFA932B007349BD /* SYDES3.h */,
+				6B5CCE391DFA932B007349BD /* SYDES3.m */,
+			);
+			name = DES;
+			path = DES;
+			sourceTree = "<group>";
+		};
+		6B5CCE3B1DFA9358007349BD /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE3C1DFA9358007349BD /* GTMBase64.h */,
+				6B5CCE3D1DFA9358007349BD /* GTMBase64.m */,
+				6B5CCE3E1DFA9358007349BD /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		6B5CCE401DFA9472007349BD /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE471DFA9548007349BD /* NSData+Base64.h */,
+				6B5CCE481DFA9548007349BD /* NSData+Base64.m */,
+				6B5CCE441DFA9533007349BD /* NSData+CommonCrypto.h */,
+				6B5CCE451DFA9533007349BD /* NSData+CommonCrypto.m */,
+				6B5CCE4A1DFA954D007349BD /* NSString+Base64.h */,
+				6B5CCE4B1DFA954D007349BD /* NSString+Base64.m */,
+				6B5CCE411DFA948E007349BD /* SYAES.h */,
+				6B5CCE421DFA948E007349BD /* SYAES.m */,
+			);
+			name = AES;
+			path = AES;
+			sourceTree = "<group>";
+		};
+		6B5CCE4D1DFA9622007349BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE661DFA99FE007349BD /* SYAESViewController.h */,
+				6B5CCE671DFA99FE007349BD /* SYAESViewController.m */,
+				6B5CCE691DFA9A15007349BD /* SYBaseViewController.h */,
+				6B5CCE6A1DFA9A15007349BD /* SYBaseViewController.m */,
+				6B5CCE6B1DFA9A15007349BD /* SYBaseViewController.xib */,
+				6B5CCE631DFA99F5007349BD /* SYDESViewController.h */,
+				6B5CCE641DFA99F5007349BD /* SYDESViewController.m */,
+				6B5CCE721DFAA4C2007349BD /* SYRSAViewController.h */,
+				6B5CCE731DFAA4C2007349BD /* SYRSAViewController.m */,
+				6B5CCE601DFA967A007349BD /* SYRootViewController.h */,
+				6B5CCE611DFA967A007349BD /* SYRootViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6B5CCE6E1DFAA3F9007349BD /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CCE6F1DFAA408007349BD /* SYRSA.h */,
+				6B5CCE701DFAA408007349BD /* SYRSA.m */,
+			);
+			name = RSA;
+			path = RSA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5CCE1B1DFA92CC007349BD /* SYEncryptionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5CCE331DFA92CC007349BD /* Build configuration list for PBXNativeTarget "SYEncryptionDemo" */;
+			buildPhases = (
+				6B5CCE181DFA92CC007349BD /* Sources */,
+				6B5CCE191DFA92CC007349BD /* Frameworks */,
+				6B5CCE1A1DFA92CC007349BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYEncryptionDemo;
+			productName = SYEncryptionDemo;
+			productReference = 6B5CCE1C1DFA92CC007349BD /* SYEncryptionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5CCE141DFA92CC007349BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ShenYang;
+				TargetAttributes = {
+					6B5CCE1B1DFA92CC007349BD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 32TZ8J928T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6B5CCE171DFA92CC007349BD /* Build configuration list for PBXProject "SYEncryptionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5CCE131DFA92CC007349BD;
+			productRefGroup = 6B5CCE1D1DFA92CC007349BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5CCE1B1DFA92CC007349BD /* SYEncryptionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5CCE1A1DFA92CC007349BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CCE2F1DFA92CC007349BD /* LaunchScreen.storyboard in Resources */,
+				6B5CCE2C1DFA92CC007349BD /* Assets.xcassets in Resources */,
+				6B5CCE2A1DFA92CC007349BD /* Main.storyboard in Resources */,
+				6B5CCE6D1DFA9A15007349BD /* SYBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5CCE181DFA92CC007349BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CCE681DFA99FE007349BD /* SYAESViewController.m in Sources */,
+				6B5CCE4C1DFA954D007349BD /* NSString+Base64.m in Sources */,
+				6B5CCE241DFA92CC007349BD /* AppDelegate.m in Sources */,
+				6B5CCE3F1DFA9358007349BD /* GTMBase64.m in Sources */,
+				6B5CCE771DFAA58D007349BD /* NSString+SYEncrypt.m in Sources */,
+				6B5CCE621DFA967A007349BD /* SYRootViewController.m in Sources */,
+				6B5CCE431DFA948E007349BD /* SYAES.m in Sources */,
+				6B5CCE3A1DFA932B007349BD /* SYDES3.m in Sources */,
+				6B5CCE491DFA9548007349BD /* NSData+Base64.m in Sources */,
+				6B5CCE211DFA92CC007349BD /* main.m in Sources */,
+				6B5CCE711DFAA408007349BD /* SYRSA.m in Sources */,
+				6B5CCE461DFA9533007349BD /* NSData+CommonCrypto.m in Sources */,
+				6B5CCE741DFAA4C2007349BD /* SYRSAViewController.m in Sources */,
+				6B5CCE651DFA99F5007349BD /* SYDESViewController.m in Sources */,
+				6B5CCE6C1DFA9A15007349BD /* SYBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B5CCE281DFA92CC007349BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5CCE291DFA92CC007349BD /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		6B5CCE2D1DFA92CC007349BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5CCE2E1DFA92CC007349BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5CCE311DFA92CC007349BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B5CCE321DFA92CC007349BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5CCE341DFA92CC007349BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32TZ8J928T;
+				INFOPLIST_FILE = SYEncryptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShenYang.SYEncryptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5CCE351DFA92CC007349BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32TZ8J928T;
+				INFOPLIST_FILE = SYEncryptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShenYang.SYEncryptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5CCE171DFA92CC007349BD /* Build configuration list for PBXProject "SYEncryptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CCE311DFA92CC007349BD /* Debug */,
+				6B5CCE321DFA92CC007349BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5CCE331DFA92CC007349BD /* Build configuration list for PBXNativeTarget "SYEncryptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CCE341DFA92CC007349BD /* Debug */,
+				6B5CCE351DFA92CC007349BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5CCE141DFA92CC007349BD /* Project object */;
+}
